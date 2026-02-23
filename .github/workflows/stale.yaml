@@ -6,8 +6,8 @@
 name: Mark stale issues and pull requests
 
 on:
-  schedule:
-  - cron: '0 0 * * *' # Run every day at midnight
+  # schedule:  # disabled cron
+  #   - cron: '0 0 * * *' # Run every day at midnight
 
 jobs:
   stale:
